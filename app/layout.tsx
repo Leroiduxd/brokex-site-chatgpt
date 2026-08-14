@@ -31,6 +31,9 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
   },
+  other: {
+    "base:app_id": "6a7f8beb2a970552f6dfef38",
+  },
 };
 
 export default function RootLayout({
