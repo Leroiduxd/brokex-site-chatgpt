@@ -2,16 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {title:"Brokex — The Gold Market, Rebuilt",description:"A gold-only onchain perpetuals protocol for precise, continuous exposure."};
 const Arrow=()=> <span aria-hidden="true">↗</span>;
-const Mark=()=> <span className="bx-mark" aria-hidden="true"><i/><i/><i/></span>;
 
 export default function Home(){return <main><section className="screen-one">
   <div className="market-tape"><span>XAU / USD <b>$4,368.02</b> <em>−0.86% ↓</em></span><span>24H HIGH <b>$4,414.80</b></span><span>OPEN INTEREST <b>$18.42M</b></span><span>FUNDING / 1H <b>0.0022%</b></span><a href="#market">FULL MARKET →</a></div>
-  <nav className="g-nav"><a className="g-logo" href="#"><Mark/>BROKEX</a><div><a href="#market">Thesis</a><a href="https://app.brokex.trade">Trade</a><a href="https://docs.brokex.trade">Docs</a></div><a className="black-btn" href="https://app.brokex.trade">LAUNCH APP <Arrow/></a></nav>
+  <nav className="g-nav"><a className="g-logo" href="#">BROKEX</a><div><a href="#market">Thesis</a><a href="https://app.brokex.trade">Trade</a><a href="https://docs.brokex.trade">Docs</a></div><a className="black-btn" href="https://app.brokex.trade">LAUNCH APP <Arrow/></a></nav>
 
   <section className="g-hero">
     <img src="/brokex-gold-hero.png" alt="Sculptural refined gold medallions"/>
     <div className="hero-copy"><span className="overline">THE GOLD PERPETUALS PROTOCOL</span><h1>The world’s<br/>oldest asset.<br/><b>Rebuilt.</b></h1><p>Trade XAU/USD perpetuals with onchain execution, transparent risk controls, and up to 50x leverage.</p><div><a className="black-btn" href="https://app.brokex.trade">LAUNCH APP <Arrow/></a><a className="light-btn" href="#market">EXPLORE PROTOCOL →</a></div></div>
-    <aside className="hero-quote"><p>One market, designed without compromise. Brokex turns gold into a continuous, composable onchain primitive.</p><div><span><Mark/></span><b>$4,368.02<small>XAU / USD</small></b><em>−$37.56<br/><small>−0.86% TODAY</small></em></div></aside>
+    <aside className="hero-quote"><p>One market, designed without compromise. Brokex turns gold into a continuous, composable onchain primitive.</p><div><span aria-hidden="true"/><b>$4,368.02<small>XAU / USD</small></b><em>−$37.56<br/><small>−0.86% TODAY</small></em></div></aside>
   </section>
 
   </section><section className="screen-two" id="market"><section className="bold-intro"><span>01 / THE THESIS</span><h2>Not another exchange.<br/><b>A new market for gold.</b></h2><p>We removed the token maze and built around a single, global macro asset. Every parameter, interface, and line of code serves one purpose: better gold exposure.</p></section>
