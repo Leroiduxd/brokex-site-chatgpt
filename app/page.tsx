@@ -39,7 +39,7 @@ export default function Home(){return <main><section className="screen-one">
     <img className="trust-bg" src="/brokex-institutional-monument.png" alt="Monumental institutional architecture set into a dark mountain"/>
     <div className="trust-grid" aria-hidden="true"><i/><i/><i/><i/><i/><i/></div>
     <header className="trust-header"><span>04 / HOW IT STAYS SOLVENT</span><h2>Trust is not a promise.<br/><b>It is a system.</b></h2><p>Three independent controls keep pricing, collateral and market capacity aligned—before a position is opened.<span className="trust-status"><i/>PROTOCOL GUARDRAILS ACTIVE</span></p></header>
-    <p className="trust-rotator"><em>BUILT TO BE</em><span>ORACLE-PRICED.</span><span>VAULT-BACKED.</span><span>SOLVENCY-CAPPED.</span></p>
+    <p className="trust-rotator"><em>BUILT TO BE</em><span>ORACLE-PRICED.</span><span style={{opacity:0,visibility:"hidden"}}>VAULT-BACKED.</span><span style={{opacity:0,visibility:"hidden"}}>SOLVENCY-CAPPED.</span></p>
     <div className="trust-flow"><span>PRICE</span><i/><b>COLLATERAL</b><i/><strong>CAPACITY</strong><em>VERIFIED BEFORE EXECUTION</em></div>
   </section>
 
